@@ -1,32 +1,44 @@
 
 h1 , h2 {
-    margin:0;
+    margin:10px 0;
+}
+
+*{
+    box-sizing: border-box;
+    font-family:"SeogoeUI",Arial, Helvetica, sans-serif
 }
 
 .header{
     background-color: #666;
     color:white;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     padding:30px;
  
 }
 
 .nav{
+
     float:left;
-    width:25%;
+    width:23%;
     height:300px;
     background-color: #ccc;
-    padding:15px;
+    padding:20px;
 }
 
 .nav ul{
     list-style-type: none;
+    padding:5px;
+}
+
+li{
+    padding:2px;
 }
 .article{
-    width:75%;
+    
     height:300px;
-
+    padding:30px 50px 30px 250px;
+    background-color: #f1f1f1;
 }
 
 .article_title{
@@ -35,4 +47,7 @@ h1 , h2 {
 
 .footer{
     background-color: #777;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
